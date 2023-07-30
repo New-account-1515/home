@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: rgb(236, 240, 241)
+}
+
+.new-boxo{
+    display: grid;
+
+    padding-top: .8cm;
+    padding-bottom: .9cm;
+}
+
+.gameImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .3cm;
+    
+    width: 640px;
+    height: 376.5px;
+
+    clip-path: inset(0% 0% 0% 0% round 45px)
+}
+
+.gameText{
+    color: rgb(23, 23, 23);
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 1cm;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;  
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .gameImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .3cm;
+        
+        width: 320px;
+        height: 188.25px;
+    
+        clip-path: inset(0% 0% 0% 0% round 55px)
+    }
+}
