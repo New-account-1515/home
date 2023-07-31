@@ -32,8 +32,36 @@ body{
     color: rgb(23, 23, 23);
     text-align: center;
     font-family: 'Cairo', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 25px;
+    padding-bottom: 1cm;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;  
+}
+
+.gameText-t1{
+    color: #5585B5;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 1cm;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;  
+}
+
+.gameText-t2{
+    color: #19A84C;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
     padding-bottom: 1cm;
 
     -webkit-user-select: none;  /* Chrome all / Safari all */
@@ -57,5 +85,17 @@ body{
         height: 188.25px;
     
         clip-path: inset(0% 0% 0% 0% round 35px)
+    }
+
+    .gameText{
+        font-size: 21px;
+    }
+
+    .gameText-t1{
+        font-size: 45px;
+    }
+
+    .gameText-t2{
+        font-size: 45px;
     }
 }
